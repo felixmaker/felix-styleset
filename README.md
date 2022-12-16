@@ -1,6 +1,21 @@
 # Felix's Styleset for [Sciter.JS](https://gitlab.com/sciter-engine/sciter-js-sdk)
 
-Felix's Styleset is an very easy-to-use component toolkit for Sciter.JS users. It's on original stage of development, maybe it has breaking change in next version.
+Felix's Styleset is an easy-to-use component toolkit for Sciter.JS. 
+**WARNING**: Felix's Styleset is on original development stage. It maybe have breaking change in next version.
+
+## How to use? (Preview)
+
+Example: use felix styleset to decorate a Reactor component.
+
+```javascript
+import * as styleset from "styleset";
+const Button = function () {
+  return (
+    <button styleset={styleset.basicButtonStyleset}>Hello Button</button>
+  )
+}
+document.body.append(<Button />)
+```
 
 ## Current Roadmap
 
@@ -22,7 +37,7 @@ Felix's Styleset is an very easy-to-use component toolkit for Sciter.JS users. I
  - [ ] Text Field
  - [ ] Select
 
-### Stage 2
+#### Stage 2
 
  - [ ] Dialog
  - [ ] List
@@ -32,7 +47,7 @@ Felix's Styleset is an very easy-to-use component toolkit for Sciter.JS users. I
  - [ ] Menu
  - [ ] Panel
 
-### More
+#### More
 
  - [ ] Badge
  - [ ] Icons
@@ -41,14 +56,3 @@ Felix's Styleset is an very easy-to-use component toolkit for Sciter.JS users. I
  - [ ] Breadcrumbs 
  - [ ] Pagination
  
-## How to use Felix's styleset? (Preview)
-
-```javascript
-import * as styleset from "styleset";
-const Button = function () {
-  return (
-    <button styleset={styleset.basicButtonStyleset}>Hello Button</button>
-  )
-}
-document.body.append(<Button />)
-```
