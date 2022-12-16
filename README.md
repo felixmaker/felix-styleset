@@ -1,6 +1,6 @@
 # Felix's Styleset for [Sciter.JS](https://gitlab.com/sciter-engine/sciter-js-sdk)
 
-Felix's Styleset is an easy-to-use component toolkit for Sciter.JS. 
+Felix's Styleset is an easy-to-use style presets for Sciter.JS. 
 **WARNING**: Felix's Styleset is on original development stage. It maybe have breaking change in next version.
 
 ## How to use? (Preview)
