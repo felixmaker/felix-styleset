@@ -32,7 +32,7 @@ document.body.append(<Button />)
 
  - [x] Button
  - [ ] Label
- - [ ] Progress
+ - [x] Progress
  - [ ] Checkbox
  - [ ] Text Field
  - [ ] Select
