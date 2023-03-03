@@ -1,2 +1,2 @@
-export { basicButtonStyleset } from "./components/button";
-export { basicProgressStyleset } from "./components/progress";
+export { basicButtonStyleset } from "./stylesets/button";
+export { basicProgressStyleset } from "./stylesets/progress";
